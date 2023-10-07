@@ -2,8 +2,11 @@
 
 int main()
 {
-    int input_number = 6;
-    int i, cube;
+    int input_number, i, cube;
+
+    printf("Input number: ");
+    scanf("%d", &input_number);
+
     for (i = 1; i <= input_number; i++)
     {
         cube = i * i * i;
